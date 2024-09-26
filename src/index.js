@@ -9,10 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <KindeProvider
-      clientId="090643cdca934101849f5e549317d0ae"
+      clientId="144f126330ed44efb81b4d5d8ecc4643"
       domain="https://insupuna.kinde.com"
-      redirectUri="http://localhost:3000"
-      logoutUri="http://localhost:3000"
+      redirectUri="https://react-kinde-poc-blush.vercel.app"
+      logoutUri="https://react-kinde-poc-blush.vercel.app"
     >
       <App />
     </KindeProvider>
